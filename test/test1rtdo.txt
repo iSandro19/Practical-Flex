@@ -1,0 +1,6 @@
+Número de caracteres: 27
+Número de palabras: 9
+Número de palabras en mayúscula: 2
+Número de palabras en minúscula: 4
+Número de números: 2
+Número de frases: 4

@@ -1,0 +1,37 @@
+make -C src
+
+echo -n "" > test/test1rtdo
+./src/practica1 < test/test1.txt >> test/test1rtdo
+cmp -s test/test1rtdo test/test1rtdo.txt && echo '### TEST 1: SUCCESS ###' || echo '### TEST 1: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test2rtdo
+./src/practica1 < test/test2.txt >> test/test2rtdo
+cmp -s test/test2rtdo test/test2rtdo.txt && echo '### TEST 2: SUCCESS ###' || echo '### TEST 2: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test3rtdo
+./src/practica1 < test/test3.txt >> test/test3rtdo
+cmp -s test/test3rtdo test/test3rtdo.txt && echo '### TEST 3: SUCCESS ###' || echo '### TEST 3: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test4rtdo
+./src/practica1 < test/test4.txt >> test/test4rtdo
+cmp -s test/test4rtdo test/test4rtdo.txt && echo '### TEST 4: SUCCESS ###' || echo '### TEST 4: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test5rtdo
+./src/practica1 < test/test5.txt >> test/test5rtdo
+cmp -s test/test5rtdo test/test5rtdo.txt && echo '### TEST 5: SUCCESS ###' || echo '### TEST 5: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test6rtdo
+./src/practica1 < test/test6.txt >> test/test6rtdo
+cmp -s test/test6rtdo test/test6rtdo.txt && echo '### TEST 6: SUCCESS ###' || echo '### TEST 6: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test7rtdo
+./src/practica1 < test/test7.txt >> test/test7rtdo
+cmp -s test/test7rtdo test/test7rtdo.txt && echo '### TEST 7: SUCCESS ###' || echo '### TEST 7: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test8rtdo
+./src/practica1 < test/test8.txt >> test/test8rtdo
+cmp -s test/test8rtdo test/test8rtdo.txt && echo '### TEST 8: SUCCESS ###' || echo '### TEST 8: WARNING (Files Are Not Identical!) ###'
+
+echo -n "" > test/test9rtdo
+./src/practica1 < test/test9.txt >> test/test9rtdo
+cmp -s test/test9rtdo test/test9rtdo.txt && echo '### TEST 9: SUCCESS ###' || echo '### TEST 9: WARNING (Files Are Not Identical!) ###'

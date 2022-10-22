@@ -1,0 +1,4 @@
+PRÁCTICA 1 (PL)
+
+- Autor: Óscar Alejandro Manteiga Seoane
+- Desarrollo, funcionamiento y peculiaridades:
